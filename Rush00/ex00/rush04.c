@@ -9,9 +9,9 @@ void    put_fmt(int row, int col, int x, int y)
         ft_putchar('C');
     else if(row == x && col == 0)
         ft_putchar('C');
-    else if(row == x && col == y)
+    else if(row == x & col == y)
         ft_putchar('A');
-    else if (row == 0 || row == x)
+    else if (row == 0 | row == x)
         ft_putchar('B');
     else if (col == 0 || col == y)
         ft_putchar('B');
